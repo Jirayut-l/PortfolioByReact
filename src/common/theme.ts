@@ -31,7 +31,7 @@ export const theme = createTheme({
         },
         MuiDrawer: {
             paper: {
-                backgroundColor: '#0000005e',
+                backgroundColor: 'rgba(0,0,0,0.81)',
             },
         },
         MuiBackdrop: {
