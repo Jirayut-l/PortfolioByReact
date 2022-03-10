@@ -1,5 +1,7 @@
-import {createStyles, Theme} from '@material-ui/core';
-const useStyles = (theme: Theme) => createStyles({
+import { createStyles } from "@mui/styles";
+import {Theme} from '@mui/material';
+
+const useStyles = (theme:Theme) => createStyles({
     button: {
         transition: 'color .4s ease-out',
         '&:hover': {

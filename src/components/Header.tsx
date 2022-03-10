@@ -1,20 +1,22 @@
-import {Box, Drawer, Hidden, IconButton, Link, makeStyles} from '@material-ui/core';
+import {Box, Drawer, Hidden, IconButton} from '@mui/material';
 import header from '../theme/header';
 import Particles from 'react-tsparticles';
 import particlesParams from '../theme/particles-background';
 import {useState} from 'react';
-import MenuIcon from '@material-ui/icons/Menu';
+import {Link} from 'react-scroll';
+import DehazeIcon from '@mui/icons-material/Dehaze';
+import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles(header);
 const Header = () => {
-    const menus = ['is', 'about', 'work', 'contact'];
+    const menus = ['about', 'experience', 'contact'];
     const classes = useStyles();
     const [drawerState, setDrawerState] = useState(false);
     const Menus = () => {
         return (
             <>
-                {menus.map((key, index) => (
-                    <Link key={`link-${index}`} className={classes.link}>
+                {menus.map((key) => (
+                    <Link key={`link-${key}`} to={key} className={classes.link}  spy={true} smooth={true} duration={200} >
                         {`${key}();`}
                     </Link>
                 ))}
@@ -35,7 +37,7 @@ const Header = () => {
                         </Drawer>
                     )}
                     <IconButton className={classes.button} onClick={() => setDrawerState(true)}>
-                        <MenuIcon/>
+                        <DehazeIcon/>
                     </IconButton>
                 </Hidden>
                 <Hidden xsDown>
