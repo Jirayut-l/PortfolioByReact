@@ -6,6 +6,9 @@ const componentStyles = () => createStyles({
         background: `url(${process.env.PUBLIC_URL}/images/line.png)`,
         backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat',
+    },
+    content:{
+        padding:'50px'
     }
 });
 export default componentStyles;

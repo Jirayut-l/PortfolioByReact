@@ -1,18 +1,7 @@
 import {Avatar, Box, Grid, Typography} from '@mui/material';
 import React from 'react';
-import {createStyles, makeStyles} from '@mui/styles';
-
-const useStyles = makeStyles(()=>
-    createStyles({
-        large: {
-            width: '200px',
-            height: '200px'
-        },
-    })
-);
 
 const About = () => {
-    const classes = useStyles();
     return (
         <>
             <Box minHeight="100vh" display="flex" flexDirection="column" justifyContent="center">
@@ -25,24 +14,19 @@ const About = () => {
                     </Typography>
                 </Box>
 
-                <Grid container>
-                    <Grid item xs={12} md={8}>
+                <Grid container spacing={{xs: 5}}>
+                    <Grid item xs={12} md={8} order={{xs: 2, md: 1}}>
                         <Typography variant="subtitle1" color="textPrimary">
                             &nbsp;&nbsp;I am developer. My coding guideline is
                             <span style={{color: '#49d6e9'}}>
                             &nbsp;"coding is as simple as writing!"
                         </span>
-                            &nbsp;for easy to reading included fixing. I have experience to make
-                            a game and a web. I am quick learner and always ready to adapt to
-                            working as a team. I am easy going. I can get along with anybody.
-                            I am ready to improve my skills all the time. My hobbies are play the
-                            game, watching movies and listening music.
-                            I would like to have a good job which brings a stable income, have security and a family
+                            &nbsp;  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate doloribus eum fugit hic impedit modi nobis officiis perferendis perspiciatis, placeat quam saepe sint sit tempore ut vel velit, voluptatem.
                         </Typography>
                     </Grid>
-                    <Grid item xs={12} md={4}>
+                    <Grid item xs={12} md={4} order={{xs: 1, md: 2}}>
                         <Box display="flex" height="100%" justifyContent="center" alignItems="center">
-                            <Avatar className={classes.large} alt="my"/>
+                            <Avatar  src={`${process.env.PUBLIC_URL}/images/profile.jpg`} alt="my" sx={{width: 250, height: 250}}/>
                         </Box>
                     </Grid>
                 </Grid>

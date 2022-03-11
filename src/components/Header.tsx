@@ -1,4 +1,4 @@
-import {Box, Drawer, Hidden, IconButton} from '@mui/material';
+import {Box, Drawer, IconButton} from '@mui/material';
 import header from '../theme/header';
 import Particles from 'react-tsparticles';
 import particlesParams from '../theme/particles-background';
@@ -12,6 +12,7 @@ const Header = () => {
     const menus = ['about', 'experience', 'contact'];
     const classes = useStyles();
     const [drawerState, setDrawerState] = useState(false);
+
     const Menus = () => {
         return (
             <>
@@ -30,19 +31,19 @@ const Header = () => {
         <>
             <Particles className={classes.particles} params={particlesParams}/>
             <Box position="fixed" width="100%" display="flex" justifyContent="flex-end" p={1} zIndex={1}>
-                <Hidden smUp>
+                <Box sx={{display:{xs:"block",sm:"none"}}}>
                     {drawerState && (
-                        <Drawer anchor="right" open={drawerState} onClose={() => setDrawerState(false)}>
+                        <Drawer anchor="right" open={drawerState} onClose={() => setDrawerState(false)} >
                             <Menus/>
                         </Drawer>
                     )}
                     <IconButton className={classes.button} onClick={() => setDrawerState(true)}>
                         <DehazeIcon/>
                     </IconButton>
-                </Hidden>
-                <Hidden xsDown>
+                </Box>
+                <Box sx={{display:{xs:"none",sm: "block"}}}>
                     <Menus/>
-                </Hidden>
+                </Box>
             </Box>
         </>
     )
