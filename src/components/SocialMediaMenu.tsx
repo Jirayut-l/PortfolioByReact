@@ -11,7 +11,7 @@ const SocialMediaMenu = () => {
     const classes = useStyles();
     return (
         <Box className={classes.menu} sx={{display: {xs: 'none', md: 'block'}}}>
-            <ul className={classes.ul}>
+            <ul className={classes.ul} >
                 <li><GitHubIcon/></li>
                 <li><InstagramIcon/></li>
                 <li><TwitterIcon/></li>

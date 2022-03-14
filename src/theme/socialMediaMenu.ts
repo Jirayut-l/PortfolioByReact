@@ -1,6 +1,5 @@
 import {createStyles} from '@mui/styles';
 
-
 const componentStyles = () => createStyles({
     ul: {
         '&:after': {

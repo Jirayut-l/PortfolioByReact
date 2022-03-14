@@ -8,6 +8,7 @@ import {makeStyles} from '@mui/styles';
 import Experience from '../components/Experience';
 import Contact from '../components/Contact';
 import SocialMediaMenu from '../components/SocialMediaMenu';
+import Footer from '../components/Footer';
 
 const useStyles = makeStyles(singlePage);
 const SinglePage = () => {
@@ -36,6 +37,7 @@ const SinglePage = () => {
                     </Grid>
                 </Grid>
             </Container>
+            <Footer/>
         </>
     )
 }
