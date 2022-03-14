@@ -16,6 +16,9 @@ const componentStyles = (theme: Theme) => createStyles({
         [theme.breakpoints.up('md')]: {
             padding: '0px 76px'
         },
+        [theme.breakpoints.up('lg')]: {
+            padding: '0px 100px'
+        },
     }
 });
 export default componentStyles;

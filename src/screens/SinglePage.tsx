@@ -17,7 +17,7 @@ const SinglePage = () => {
         <>
             <Header/>
             <SocialMediaMenu/>
-            <Container maxWidth={'lg'}>
+            <Container maxWidth={'xl'}>
                 <Grid container>
                     <Grid item xs={12}>
                         <div id="containerElement" className={classes.content}>

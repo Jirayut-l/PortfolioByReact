@@ -10,7 +10,7 @@ const Contact = () => {
                 </Typography>
             </Box>
             <Box my={1}>
-                <Typography variant="body1" color="textPrimary">
+                <Typography variant="subtitle1" color="textPrimary">
                     74/14 M.6 YaiCha, Samphran Nakornpathom 73110
                     <br/>
                     088-228-4176
