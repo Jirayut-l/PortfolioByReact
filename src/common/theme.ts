@@ -22,14 +22,12 @@ export const theme = createTheme({
         fontFamily: ['Ubuntu Mono', 'monospace'].join(','),
         subtitle1: {
             fontFamily: ['Manrope', 'sans-serif'].join(','),
-            fontSize: 20
         }
     },
     components: {
         MuiButton: {
             styleOverrides: {
                 root: {
-                    fontSize: '1.25rem',
                     textTransform: 'none',
                     backgroundColor: 'transparent',
                 },

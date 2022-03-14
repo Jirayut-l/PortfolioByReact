@@ -14,7 +14,7 @@ const About = () => {
                     </Typography>
                 </Box>
 
-                <Grid container spacing={{xs: 5}}>
+                <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     <Grid item xs={12} md={8} order={{xs: 2, md: 1}}>
                         <Typography variant="subtitle1" color="textPrimary">
                             &nbsp;&nbsp;I am developer. My coding guideline is
@@ -25,8 +25,8 @@ const About = () => {
                         </Typography>
                     </Grid>
                     <Grid item xs={12} md={4} order={{xs: 1, md: 2}}>
-                        <Box display="flex" height="100%" justifyContent="center" alignItems="center">
-                            <Avatar  src={`${process.env.PUBLIC_URL}/images/profile.jpg`} alt="my" sx={{width: 250, height: 250}}/>
+                        <Box display="flex" height="100%" justifyContent="center" alignContent="center">
+                            <Avatar src={`${process.env.PUBLIC_URL}/images/profile.jpg`} alt="my" sx={{width: 200, height: 200}}/>
                         </Box>
                     </Grid>
                 </Grid>

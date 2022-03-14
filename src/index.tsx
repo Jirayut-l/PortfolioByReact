@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import theme from './common/theme';
-import { ThemeProvider } from '@mui/material/styles';
+import {responsiveFontSizes, ThemeProvider} from '@mui/material/styles';
 import {CssBaseline} from '@mui/material';
 
+
 ReactDOM.render(
-    <ThemeProvider  theme={theme}>
+    <ThemeProvider  theme={responsiveFontSizes(theme)}>
         <CssBaseline />
         <App/>
     </ThemeProvider >,
