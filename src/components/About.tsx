@@ -20,7 +20,7 @@ const About = () => {
 
                 <Grid container>
                     <Grid item xs={12} md={8} order={{xs: 2, md: 1}}>
-                        <Typography variant="subtitle1" color="textPrimary">
+                        <Typography variant="subtitle1" color="textPrimary" className={classes.contentText} >
                             Hello! my name is Jirayut and I like coding. My concept coding is <br/>
                             <span style={{color: '#49d6e9'}}>
                                 &nbsp;"Code as simple as possible!"
