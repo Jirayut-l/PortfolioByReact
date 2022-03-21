@@ -16,11 +16,10 @@ export const theme = createTheme({
             primary: '#ffffff',
             secondary: '#e4b781',
         }
-
     },
     typography: {
         fontFamily: ['Ubuntu Mono', 'monospace'].join(','),
-        subtitle1: {
+        subtitle1:{
             fontFamily: ['Manrope', 'sans-serif'].join(','),
         }
     },
@@ -46,7 +45,7 @@ export const theme = createTheme({
                     backgroundColor: 'rgb(0 0 0 / 7%)'
                 },
             }
-        }
+        },
     },
 });
 

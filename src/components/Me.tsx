@@ -13,8 +13,11 @@ const Me = () => {
                         Jirayut Laorpongphruek
                     </Typography>
                 </Box>
-                <Typography variant="h6" color="textSecondary">
-                    Full Stack Developer
+                <Typography variant="body1" style={{color:'#d0cccc', maxWidth:'560px'}} >
+                    I'm a BackEnd Developer and exceptional experience. Currently, I’m focused on FrontEnd learning because I want to be a <br/>
+                    <span style={{color: '#e4b781'}}>
+                       Full Stack Developer !!
+                    </span>
                 </Typography>
             </Box>
         </Box>

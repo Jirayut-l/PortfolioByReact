@@ -1,7 +1,11 @@
 import {Avatar, Box, Grid, Typography} from '@mui/material';
 import React from 'react';
+import {makeStyles} from '@mui/styles';
+import common from '../theme/common';
 
+const useStyles = makeStyles(common());
 const About = () => {
+    const classes = useStyles();
     return (
         <>
             <Box minHeight="100vh" display="flex" flexDirection="column" justifyContent="center">
@@ -14,14 +18,24 @@ const About = () => {
                     </Typography>
                 </Box>
 
-                <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+                <Grid container>
                     <Grid item xs={12} md={8} order={{xs: 2, md: 1}}>
                         <Typography variant="subtitle1" color="textPrimary">
-                            &nbsp;&nbsp;I am developer. My coding guideline is
+                            Hello! my name is Jirayut and I like coding. My concept coding is <br/>
                             <span style={{color: '#49d6e9'}}>
-                            &nbsp;"coding is as simple as writing!"
-                        </span>
-                            &nbsp;  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate doloribus eum fugit hic impedit modi nobis officiis perferendis perspiciatis, placeat quam saepe sint sit tempore ut vel velit, voluptatem.
+                                &nbsp;"Code as simple as possible!"
+                            </span>
+                            &nbsp; and best practice guidelines recommend for easy reading included fixing.
+                            I have the experience to backend C#. currently my interest in frontend development.
+                            I like learning about coding everything because I think there are still many unknowns.
+                            I am easy to get along with and enjoy working in a team.
+                            My hobbies are playing the game, watching movies, and listening to music and I like workout like cycling, running.
+                          <p> Here are a few technologies I’ve been working with recently:</p>
+                            <ul className={classes.ulList} >
+                                <li>TypeScript</li>
+                                <li>React</li>
+                                <li>.Net Core C#</li>
+                            </ul>
                         </Typography>
                     </Grid>
                     <Grid item xs={12} md={4} order={{xs: 1, md: 2}}>
