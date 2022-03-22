@@ -1,194 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdda5dd3-38cd-400d-a47e-5d1265243430" name="Changes" comment="deploy" />
+    <list default="true" id="b6f67ccc-2ba1-43a8-9df6-bba4696faa38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/File/resume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SocialMediaMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialMediaMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/header.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/header.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="TypeScript JSX File" />
-        <option value="TypeScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="25uYbKLh7hWol2pjXuNghIO1CQa" />
+  <component name="ProjectId" id="26kG0xFFk6udh3fvmw2VAhfYVDw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="ts.external.directory.path" value="C:\MyWork\React\portfoliobyreact\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\MyWork\React\portfoliobyreact\src\File" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\MyWork\React\portfoliobyreact\public" />
-      <recent name="C:\MyWork\React\portfoliobyreact\public\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fdda5dd3-38cd-400d-a47e-5d1265243430" name="Changes" comment="" />
-      <created>1646378509574</created>
+      <changelist id="b6f67ccc-2ba1-43a8-9df6-bba4696faa38" name="Changes" comment="" />
+      <created>1647959956242</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1646378509574</updated>
-      <workItem from="1646378518105" duration="5572000" />
-      <workItem from="1646621951012" duration="8044000" />
-      <workItem from="1646642130317" duration="548000" />
-      <workItem from="1646706220301" duration="19108000" />
-      <workItem from="1646791047754" duration="1917000" />
-      <workItem from="1646883460696" duration="5240000" />
-      <workItem from="1646893219252" duration="2302000" />
-      <workItem from="1646895678252" duration="1422000" />
-      <workItem from="1646916107554" duration="5288000" />
-      <workItem from="1646966430196" duration="198000" />
-      <workItem from="1646966667161" duration="9865000" />
-      <workItem from="1646984690462" duration="3116000" />
-      <workItem from="1647225231637" duration="11571000" />
-      <workItem from="1647243275822" duration="2206000" />
-      <workItem from="1647306791928" duration="1691000" />
-      <workItem from="1647312659255" duration="55000" />
-      <workItem from="1647328141407" duration="191000" />
-      <workItem from="1647332627247" duration="483000" />
-      <workItem from="1647395664334" duration="1111000" />
-      <workItem from="1647434934770" duration="6619000" />
-      <workItem from="1647482989026" duration="104000" />
-      <workItem from="1647528264381" duration="4944000" />
-      <workItem from="1647564023104" duration="3931000" />
-      <workItem from="1647832165965" duration="6286000" />
-      <workItem from="1647845554400" duration="11163000" />
-      <workItem from="1647914478200" duration="109000" />
-      <workItem from="1647915857008" duration="206000" />
-      <workItem from="1647925390416" duration="860000" />
-      <workItem from="1647931315441" duration="22000" />
-      <workItem from="1647937289675" duration="4175000" />
-      <workItem from="1647941640143" duration="155000" />
-      <workItem from="1647941814007" duration="6000" />
-      <workItem from="1647941824587" duration="169000" />
-      <workItem from="1647942007241" duration="150000" />
-      <workItem from="1647942253165" duration="737000" />
-      <workItem from="1647943122212" duration="435000" />
-      <workItem from="1647943569501" duration="225000" />
+      <updated>1647959956242</updated>
+      <workItem from="1647959959033" duration="1821000" />
     </task>
-    <task id="LOCAL-00001" summary="add structure and add components head">
-      <created>1646630095180</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1646630095181</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add component in head">
-      <created>1646722909139</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1646722909139</updated>
-    </task>
-    <task id="LOCAL-00003" summary="edit version mui 4 to 5 &#10;add components exp ,contact &amp; refactor code">
-      <created>1646919292173</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1646919292173</updated>
-    </task>
-    <task id="LOCAL-00004" summary="edit layout singlepage  and add socialmediamenu">
-      <created>1646977525164</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1646977525164</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add photo">
-      <created>1646977584532</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1646977584532</updated>
-    </task>
-    <task id="LOCAL-00006" summary="edit responsive and layout">
-      <created>1647230466231</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1647230466231</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add footer and edit responsive social media menu">
-      <created>1647236616036</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1647236616036</updated>
-    </task>
-    <task id="LOCAL-00008" summary="edit responsive">
-      <created>1647245822799</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1647245822799</updated>
-    </task>
-    <task id="LOCAL-00009" summary="check point">
-      <created>1647853173699</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1647853173699</updated>
-    </task>
-    <task id="LOCAL-00010" summary="chang component to common &#10;add detail exp">
-      <created>1647855832803</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1647855832803</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add resume &#10;add link">
-      <created>1647940525712</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1647940525713</updated>
-    </task>
-    <task id="LOCAL-00012" summary="deploy">
-      <created>1647941469530</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1647941469530</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,20 +69,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="add structure and add components head" />
-    <MESSAGE value="add component in head" />
-    <MESSAGE value="edit version mui 4 to 5 &#10;add components exp ,contact &amp; refactor code" />
-    <MESSAGE value="edit layout singlepage  and add socialmediamenu" />
-    <MESSAGE value="add photo" />
-    <MESSAGE value="edit responsive and layout" />
-    <MESSAGE value="add footer and edit responsive social media menu" />
-    <MESSAGE value="edit responsive" />
-    <MESSAGE value="check point" />
-    <MESSAGE value="chang component to common &#10;add detail exp" />
-    <MESSAGE value="add resume &#10;add link" />
-    <MESSAGE value="deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="deploy" />
   </component>
 </project>

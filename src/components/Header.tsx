@@ -5,7 +5,7 @@ import particlesParams from '../theme/particles-background';
 import {useState} from 'react';
 import {Link} from 'react-scroll';
 import DehazeIcon from '@mui/icons-material/Dehaze';
-import { makeStyles } from '@mui/styles';
+import {makeStyles} from '@mui/styles';
 
 const useStyles = makeStyles(header);
 const Header = () => {
@@ -17,23 +17,21 @@ const Header = () => {
         return (
             <>
                 {menus.map((key) => (
-                    <Link key={`link-${key}`} to={key} className={classes.link}  spy={true} smooth={true} duration={200} >
+                    <Link key={`link-${key}`} to={key} className={classes.link} spy={true} smooth={true} duration={200}>
                         {`${key}();`}
                     </Link>
                 ))}
-                <IconButton className={classes.githubButton}>
-                    <img alt="github" src={`${process.env.PUBLIC_URL}/images/githubLogo.png`} style={{width: '30px', height: '30px'}}/>
-                </IconButton>
+                <a className={classes.resumeButton} href={'/File/resume.pdf'} target=" _blank" rel=" noopener noreferrer">Resume</a>
             </>
         )
     };
     return (
         <>
             <Particles className={classes.particles} params={particlesParams}/>
-            <Box position="fixed" width="100%" display="flex" justifyContent="flex-end" p={1} zIndex={1}>
-                <Box sx={{display:{xs:"block",sm:"none"}}}>
+            <Box position="fixed" width="100%" display="flex" justifyContent="flex-end" p={3} zIndex={1}>
+                <Box sx={{display: {xs: 'block', sm: 'none'}}}>
                     {drawerState && (
-                        <Drawer anchor="right" open={drawerState} onClose={() => setDrawerState(false)} >
+                        <Drawer anchor="right" open={drawerState} onClose={() => setDrawerState(false)}>
                             <Menus/>
                         </Drawer>
                     )}
@@ -41,7 +39,7 @@ const Header = () => {
                         <DehazeIcon/>
                     </IconButton>
                 </Box>
-                <Box sx={{display:{xs:"none",sm: "block"}}}>
+                <Box sx={{display: {xs: 'none', sm: 'block'}}}>
                     <Menus/>
                 </Box>
             </Box>

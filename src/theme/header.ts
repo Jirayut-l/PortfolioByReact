@@ -1,7 +1,7 @@
-import { createStyles } from "@mui/styles";
+import {createStyles} from '@mui/styles';
 import {Theme} from '@mui/material';
 
-const useStyles = (theme:Theme) => createStyles({
+const useStyles = (theme: Theme) => createStyles({
     button: {
         transition: 'color .4s ease-out',
         '&:hover': {
@@ -12,9 +12,18 @@ const useStyles = (theme:Theme) => createStyles({
             color: theme.palette.primary.main,
         },
     },
-    githubButton: {
-        alignSelf: 'flex-end',
+    resumeButton: {
+        color: '#64ffda',
         width: 'fit-content',
+        border: '1px solid #64ffda',
+        cursor: 'pointer',
+        padding: '0.75rem 1rem',
+        alignSelf: 'flex-end',
+        transition: 'all 0.25s cubic-bezier(0.645,0.045,0.355,1)',
+        lineHeight: '1',
+        marginLeft: '15px',
+        borderRadius: '4px',
+        backgroundColor: 'transparent'
     },
     link: {
         alignSelf: 'flex-end',

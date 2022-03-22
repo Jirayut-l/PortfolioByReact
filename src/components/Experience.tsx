@@ -23,7 +23,7 @@ const Experience = () => {
                 <p className={classes.range}>Feb 2019 - 31 Jan 2022</p>
                 <ul className={classesCommon.ulList}>
                     <Typography variant="subtitle1" color="textPrimary">
-                        <li>I'm working in Commodity Trading and Risk Management team (CTRM) Fix issue in API</li>
+                        <li>I worked in Commodity Trading and Risk Management team (CTRM) Fix issue in API</li>
                         <li>Fix issue in API & Application from CTRM Team and Test</li>
                         <li>Development Web Api C# .Net Framework instead of using Stored Procedure By using Logic Stored Procedure Come to work in c#</li>
                         <li>Design new logic and Find a solution with efficiency and speed of execution to using.</li>
