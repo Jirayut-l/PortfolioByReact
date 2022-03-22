@@ -23,7 +23,7 @@ const Footer = () => {
                     </ul>
                 </Box>
                 <div className={classes.footer_StyledCredit}>
-                    Designed &amp; Built by Jirayut.l
+                    Designed &amp; Built by Jirayut.l!!
                 </div>
             </div>
         </footer>
