@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6f67ccc-2ba1-43a8-9df6-bba4696faa38" name="Changes" comment="add GitHub pages config" />
+    <list default="true" id="b6f67ccc-2ba1-43a8-9df6-bba4696faa38" name="Changes" comment="add gitignore">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647959956242</updated>
-      <workItem from="1647959959033" duration="3138000" />
+      <workItem from="1647959959033" duration="3483000" />
     </task>
     <task id="LOCAL-00001" summary="check point">
       <created>1647962100760</created>
@@ -67,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647963019525</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add gitignore">
+      <created>1647963275627</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647963275627</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +97,7 @@
     <MESSAGE value="check point" />
     <MESSAGE value="add workspace" />
     <MESSAGE value="add GitHub pages config" />
-    <option name="LAST_COMMIT_MESSAGE" value="add GitHub pages config" />
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
 </project>
