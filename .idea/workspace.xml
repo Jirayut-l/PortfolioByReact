@@ -4,6 +4,7 @@
     <list default="true" id="f4cdbfb2-7522-4a34-af87-9e9cda424813" name="Changes" comment="edit package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <workItem from="1648086606095" duration="1061000" />
       <workItem from="1648104613183" duration="77000" />
       <workItem from="1648105353263" duration="850000" />
-      <workItem from="1648106314997" duration="1374000" />
+      <workItem from="1648106314997" duration="3278000" />
     </task>
     <task id="LOCAL-00001" summary="restore">
       <created>1648001449674</created>
@@ -90,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648106750442</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="edit package">
+      <created>1648107902703</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648107902703</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
