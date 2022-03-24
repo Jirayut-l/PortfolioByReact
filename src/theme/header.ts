@@ -23,7 +23,8 @@ const useStyles = (theme: Theme) => createStyles({
         lineHeight: '1',
         marginLeft: '15px',
         borderRadius: '4px',
-        backgroundColor: 'transparent'
+        backgroundColor: 'transparent',
+        textDecoration:'none'
     },
     link: {
         alignSelf: 'flex-end',

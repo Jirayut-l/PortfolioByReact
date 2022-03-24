@@ -7,6 +7,7 @@ import {Link} from 'react-scroll';
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import {makeStyles} from '@mui/styles';
 
+
 const useStyles = makeStyles(header);
 const Header = () => {
     const menus = ['about', 'experience', 'contact'];
@@ -21,7 +22,7 @@ const Header = () => {
                         {`${key}();`}
                     </Link>
                 ))}
-                <a className={classes.resumeButton} href={'/File/resume.pdf'} target="_blank" rel=" noopener noreferrer">Resume</a>
+                <a className={classes.resumeButton} href={"/file/resume.pdf"} target="_blank" rel="noopener noreferrer">Resume</a>
             </>
         )
     };
