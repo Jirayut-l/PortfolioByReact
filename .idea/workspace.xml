@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4cdbfb2-7522-4a34-af87-9e9cda424813" name="Changes" comment="edit config add add style">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f4cdbfb2-7522-4a34-af87-9e9cda424813" name="Changes" comment="edit package" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +49,7 @@
       <workItem from="1648001126721" duration="2654000" />
       <workItem from="1648086606095" duration="1061000" />
       <workItem from="1648104613183" duration="77000" />
+      <workItem from="1648105353263" duration="530000" />
     </task>
     <task id="LOCAL-00001" summary="restore">
       <created>1648001449674</created>
@@ -66,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648091517121</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="edit package">
+      <created>1648105494194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648105494194</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +92,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="restore" />
     <MESSAGE value="edit config add add style" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit config add add style" />
+    <MESSAGE value="edit package" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit package" />
   </component>
 </project>
